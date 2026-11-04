@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=a689a6cb-df24-4508-b33a-b96ee9e10cc9
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Devin Parkes — CX & Operations Leader</title>
-<meta name="description" content="Devin Parkes — Customer Experience & Operations Leader. Resume, project case study, and portfolio.">
+<title>Devin "DJ" Parkes — CX & Operations Leader</title>
+<meta name="description" content="Devin &quot;DJ&quot; Parkes — Customer Experience & Operations Leader. Resume, project case study, and portfolio.">
 <style>
   :root{--ink:#22292f;--muted:#5b6670;--accent:#0b6b63;--accent2:#0e7c72;--rule:#dde4e6;--band:#f1f6f5;--bg:#eef1f2;}
   *{box-sizing:border-box;}
@@ -15,7 +18,8 @@
   .top{background:#fff;border-bottom:3px solid var(--accent);position:sticky;top:0;z-index:10;}
   .top-inner{max-width:900px;margin:0 auto;padding:16px 22px 0;}
   .brand{font-size:26px;font-weight:800;letter-spacing:1px;}
-  .brand small{display:block;font-size:13px;font-weight:600;color:var(--accent);letter-spacing:.3px;margin-top:3px;}
+  .brand .headline{display:block;font-size:14px;font-weight:700;color:var(--accent);letter-spacing:.2px;margin-top:5px;line-height:1.3;max-width:640px;}
+  .brand .subhead{display:block;font-size:12px;font-weight:500;font-style:italic;color:var(--muted);margin-top:2px;}
   nav{display:flex;gap:4px;margin-top:12px;flex-wrap:wrap;}
   nav button{border:none;background:none;font:inherit;font-size:14px;font-weight:600;color:var(--muted);
     padding:10px 14px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-3px;}
@@ -35,8 +39,8 @@
   .lead{font-size:17px;color:#333;}
   /* highlight cards */
   .highlights{display:flex;gap:12px;margin:18px 0;flex-wrap:wrap;}
-  .hl{flex:1;min-width:120px;background:var(--band);border:1px solid #e2ebe9;border-radius:8px;padding:12px;text-align:center;}
-  .hl .n{color:var(--accent2);font-weight:800;font-size:20px;display:block;}
+  .hl{flex:1;min-width:104px;background:var(--band);border:1px solid #e2ebe9;border-radius:8px;padding:12px 8px;text-align:center;}
+  .hl .n{color:var(--accent2);font-weight:800;font-size:18px;display:block;line-height:1.15;}
   .hl .l{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-top:3px;}
   /* chips */
   .chips{display:flex;flex-wrap:wrap;gap:6px;}
@@ -51,19 +55,23 @@
   .contact-row{font-size:17px;margin:10px 0;}
   .btn{display:inline-block;background:var(--accent);color:#fff !important;text-decoration:none;padding:10px 18px;border-radius:8px;font-weight:600;margin-top:8px;}
   footer{max-width:900px;margin:0 auto;padding:0 22px 40px;color:var(--muted);font-size:12px;text-align:center;}
-  @media(max-width:620px){.card{padding:22px 18px;} .brand{font-size:22px;}}
+  .shot-note{font-size:13px;color:var(--muted);margin:6px 0 14px;}
+  .shot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:10px 0 22px;}
+  .shot{border:1px solid var(--rule);border-radius:8px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.06);background:#fff;}
+  .shot img{display:block;width:100%;height:auto;}
+  .shot figcaption{padding:8px 12px;font-size:13px;font-weight:600;color:var(--ink);border-top:1px solid var(--rule);}
+  @media(max-width:620px){.card{padding:22px 18px;} .brand{font-size:22px;} .shot-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body>
 
 <div class="top">
   <div class="top-inner">
-    <div class="brand">DEVIN PARKES<small>Customer Experience &amp; Operations Leader · Product &amp; Implementations · Process Improvement · Data &amp; AI</small></div>
+    <div class="brand">DEVIN "DJ" PARKES<span class="headline">I turn broken CX operations into growth engines — 74%→93% retention, +$4M revenue, and the AI platform to run it all.</span><span class="subhead">Led ~55 people across three functions, then built the AI platform to run them — solo.</span></div>
     <nav>
       <button data-tab="resume" class="active">Resume</button>
       <button data-tab="project">Project Case Study</button>
       <button data-tab="portfolio">Portfolio</button>
-      <button data-tab="cover">Cover Letter</button>
       <button data-tab="contact">Contact</button>
     </nav>
   </div>
@@ -76,73 +84,69 @@
   <div class="card">
     <div style="text-align:right;margin-bottom:6px;"><a class="btn" href="Devin_Parkes_Resume.pdf" download style="padding:7px 14px;font-size:13px;">⬇ Download résumé (PDF)</a></div>
     <div class="highlights">
-      <div class="hl"><span class="n">+$4M</span><span class="l">Revenue Growth</span></div>
-      <div class="hl"><span class="n">+20%</span><span class="l">CSAT · +3 NPS</span></div>
-      <div class="hl"><span class="n">3×</span><span class="l">Operational Efficiency</span></div>
+      <div class="hl"><span class="n">+$4M</span><span class="l">Revenue Grown, Sustained</span></div>
+      <div class="hl"><span class="n">74→89→93%</span><span class="l">Retention Turnaround</span></div>
+      <div class="hl"><span class="n">15%</span><span class="l">Expansion Revenue</span></div>
+      <div class="hl"><span class="n">~55</span><span class="l">People Led, 3 Functions</span></div>
       <div class="hl"><span class="n">Director</span><span class="l">of the Year</span></div>
     </div>
 
     <h2>Summary</h2>
-    <p class="lead">Customer-experience and operations leader with 20 years leading teams — including teams of managers — across SaaS, e-commerce, and technology. Deep <strong>contact-center, client-success, and workforce-management</strong> expertise with a <strong>data-driven</strong> approach to process improvement, quality, and retention. Uniquely, I also <strong>build the systems my teams run on</strong> — production dashboards, integrated data pipelines, and AI tooling.</p>
+    <p class="lead">Customer Experience &amp; Operations leader with 20 years leading teams — including managers of managers — across SaaS, e-commerce, and technology. <strong>Ten years of hands-on Salesforce Service Cloud experience</strong>, plus three ground-up implementations. Builds the commercial and technical infrastructure behind the operation: a <strong>sales-commission model designed from scratch</strong> (CRO/CFO-approved), a proactive renewal/retention program built from zero, and the <strong>production dashboards, data pipelines, and AI tooling</strong> his teams run on daily. Deep contact-center, workforce-management, and statistical-forecasting expertise (exponential smoothing, regression, Erlang C modeling). <strong>Six Sigma Green Belt</strong> certified; <strong>certified Workday Administrator</strong>.</p>
 
     <h2>Core Competencies</h2>
     <div class="chips">
-      <span class="chip">Team &amp; Multi-Layer Leadership</span><span class="chip">Contact Center Operations</span>
-      <span class="chip">Customer Success &amp; CX</span><span class="chip">Workforce &amp; Capacity Management</span>
-      <span class="chip">Process Improvement &amp; Lean</span><span class="chip">Data Analysis &amp; Reporting</span>
-      <span class="chip">SLA / Quality / KPI Ownership</span><span class="chip">Revenue Growth &amp; Retention</span>
-      <span class="chip">Change Management</span><span class="chip">Cross-Functional Partnership</span>
-      <span class="chip">Program &amp; Project Management</span>
+      <span class="chip" style="background:#e2f0ee;border-color:#0b6b63;font-weight:700;">Data-Instrumented CS Operations</span><span class="chip" style="background:#e2f0ee;border-color:#0b6b63;font-weight:700;">Enterprise Retention &amp; Revenue Expansion</span><span class="chip" style="background:#e2f0ee;border-color:#0b6b63;font-weight:700;">Managers-of-Managers Leadership</span>
+      <span class="chip">Commission &amp; Compensation Plan Design</span><span class="chip">Statistical Forecasting &amp; Capacity Modeling</span>
+      <span class="chip">Escalation &amp; Executive Stakeholder Management</span><span class="chip">AI &amp; Automation Tooling</span><span class="chip">Process Improvement &amp; Six Sigma</span>
     </div>
 
     <h2>Professional Experience</h2>
     <div class="job">
-      <div class="job-h"><span><span class="role">Manager, Specialized Onboarding</span> — <span class="co">Gusto</span></span><span class="dates">Feb 2025 – Aug 2026</span></div>
-      <div class="sub">Payroll migrations &amp; integrations · led a pod of 11 specialists</div>
+      <div class="job-h"><span><span class="role">GTM Manager, Specialized Onboarding</span> — <span class="co">Gusto</span></span><span class="dates">Feb 2025 – Aug 2026</span></div>
+      <div class="sub">Payroll migrations &amp; integrations · led a pod of 11 specialists · role eliminated in a team restructure</div>
       <ul>
-        <li>Managed <strong>11 specialists</strong> and their books of business — coaching, performance development, capacity balancing, and on-time delivery of customers' first payrolls.</li>
-        <li>Grew the pod's <strong>CSAT +20%</strong> and <strong>NPS +3 points</strong>, with productivity up month over month.</li>
-        <li><strong>Designed, built, secured, and operated — solo — an end-to-end performance analytics + AI platform</strong> that became the team's daily source of truth.</li>
-        <li>Engineered a <strong>one-command data pipeline</strong> integrating Salesforce, Snowflake, Notion, Calendar, CSAT, and QC systems with 8 automated data-integrity checks — replacing a fragile 8-step manual process.</li>
-        <li>Built <strong>AI coaching assistants</strong> (retrieval-grounded) and hardened the app after a security review (verified-identity auth, output encoding, server-side PII scoping).</li>
-        <li>Audited a company performance metric, found it <strong>overstated</strong>, and delivered a per-order method that reconciled exactly to source — correcting numbers used in reviews.</li>
+        <li>Redesigned the <strong>sales-to-onboarding handoff</strong> with GTM Sales and Professional Services — cut client time-to-value from <strong>6 weeks to 2–3</strong>.</li>
+        <li>Led <strong>11 direct reports</strong> (accountable for ~65 people) and their books of business — coaching, capacity balancing, and on-time delivery of customers' first payrolls. <strong>CSAT +20%, NPS +3</strong>; specialist throughput rose from about 10&ndash;14 migrations a month to 5&ndash;8 a week (April 2025 onward), and team ESAT from the 70s to the high 80s within the first few months of the tools.</li>
+        <li><strong>Solo-designed, built, secured, and operated an end-to-end AI performance platform</strong> (Salesforce, Snowflake, QC systems) — an AI-sorted "Plan My Day" priority list, a Tableau-style Kanban board, 8 automated data-integrity checks, and retrieval-grounded (RAG) AI Coach and SOP Coach assistants. Audited a facilitator-SLA metric used in performance reviews, found the official report was overstating results, and corrected it, protecting the team from unfair scoring. Separately, the AI Coach and SOP Coach skills drove an <strong>18% increase in First Contact Resolution (FCR)</strong>.</li>
       </ul>
     </div>
     <div class="job">
       <div class="job-h"><span><span class="role">BPO Consultant</span> — <span class="co">Contract</span></span><span class="dates">Nov 2023 – Feb 2025</span></div>
-      <ul><li>Delivered 15 client engagements implementing experience-management (XM) solutions and onboarding users.</li></ul>
+      <ul>
+        <li>Advised <strong>15 enterprise clients</strong> on CX/WFM strategy — <strong>$5M/year in pipeline expansion-revenue opportunities</strong> identified across 3 engagements, plus <strong>~$5M in annual cost savings</strong> across the other 12 via improved headcount-need forecasting (<strong>30% reduction</strong> in workforce-management inefficiency), applying the Erlang C discipline built at ModusLink.</li>
+      </ul>
     </div>
     <div class="job">
-      <div class="job-h"><span><span class="role">Senior Manager, Digital Operations</span> — <span class="co">Spectrum Enterprise</span></span><span class="dates">Apr 2023 – Nov 2023</span></div>
+      <div class="job-h"><span><span class="role">Senior Manager, Enterprise Digital Operations</span> — <span class="co">Spectrum Enterprise</span> <span class="muted">(Contract / Project-Based)</span></span><span class="dates">Apr 2023 – Nov 2023</span></div>
       <ul>
-        <li>Built incident-management protocols uniting 5 organizations — <strong>+75% response efficiency, +30% client satisfaction</strong>.</li>
-        <li>Drove a program to a <strong>99% ticket-resolution rate</strong> and <strong>−30% support inquiries</strong> via AI-driven automation; ESAT <strong>+18%</strong>.</li>
+        <li>Built an incident-management strategy from scratch — cut incident lifecycle <strong>60%</strong> and lifted client satisfaction <strong>+30%</strong>, coordinating engineering, product, and customer-facing leadership without direct authority.</li>
+        <li>Drove <strong>+75% response efficiency</strong> and a multi-team automation program to <strong>99% ticket resolution</strong>; ESAT <strong>+18%</strong>.</li>
       </ul>
     </div>
     <div class="job">
       <div class="job-h"><span><span class="role">Director, Client Experience &amp; Operations Support</span> — <span class="co">adpay Inc.</span></span><span class="dates">Oct 2018 – Feb 2023</span></div>
       <ul>
-        <li><strong>Awarded Director of the Year</strong>; 97% individual-leader ESAT.</li>
-        <li><strong>Tripled operational efficiency</strong> via partner-support optimization, APIs, and automation; record <strong>89%</strong> renewal/retention (B2B).</li>
+        <li>Designed and launched a <strong>proactive client renewal/retention program from scratch</strong> and built the <strong>Preferred Partner Program</strong>, a tiered framework spanning <strong>1,400–1,500 premier partners</strong> within a 3,000+ account network — grew renewal/retention from <strong>74% to 89% to 93%</strong> over the final three years as the role expanded to lead the entire department (Support, Implementations, and Sales).</li>
+        <li>Directly managed a <strong>4-person Sales Delivery team</strong>, built adpay's <strong>sales-commission model from the ground up</strong> (CRO/CFO-approved), and built the AR-aging SOP/collections queue with the CFO — combined drove a <strong>15% increase in Adds revenue</strong>; maintained <strong>Tableau dashboards</strong> reporting directly to the <strong>CEO, CFO, and CRO</strong>.</li>
+        <li>Led <strong>~55 people</strong> across Support, Implementations, and Sales through <strong>3 Team Managers</strong> (40 CX agents, 6 Senior Advocates, 4 Implementation Architects, 2 sales team members) as de facto technical program manager (release cycle <strong>6 weeks to 3</strong>); embedded <strong>HRBP</strong>. <strong>Director of the Year</strong>; tripled efficiency; <strong>97% individual-leader ESAT</strong>.</li>
       </ul>
     </div>
     <div class="job">
       <div class="job-h"><span><span class="role">Senior Manager, Member Services</span> — <span class="co">Ancestry.com</span></span><span class="dates">Oct 2013 – Oct 2018</span></div>
       <ul>
-        <li>Boosted annual revenue <strong>+$4M</strong> and improved <strong>CSAT/NPS +15%</strong>; led a team to <strong>95%</strong> ESAT.</li>
-        <li>Training programs raised QA scores <strong>+11%</strong> and ESAT <strong>+16%</strong>.</li>
+        <li>Led <strong>12–15 Seniors, each responsible for 12–15 reps</strong>, in a 250–300-person contact center (plus 10–15 frontline agents as direct reports during holiday ramps); managed the partnership with a <strong>500–600-person part-time remote BPO</strong> plus overseas partners; led Ancestry's UK/Australia offices for 2 years. Built a <strong>12-person Team Lead tier from scratch</strong>; designed <strong>Tableau dashboards</strong> for performance-ops reporting. <strong>+$4M annual revenue, +15% CSAT/NPS, 95% ESAT</strong>, QA <strong>+11%</strong>; embedded <strong>HRBP</strong> for 4 years.</li>
       </ul>
     </div>
     <div class="job">
-      <div class="job-h"><span><span class="role">Senior Workforce Manager</span> — <span class="co">ModusLink Global Solutions</span></span><span class="dates">Oct 2006 – Oct 2013</span></div>
+      <div class="job-h"><span><span class="role">Senior Workforce Manager / Senior Business Analyst</span> — <span class="co">ModusLink Global Solutions</span></span><span class="dates">Oct 2006 – Oct 2013 (3x promoted)</span></div>
       <ul>
-        <li>Increased profitability <strong>+$100K</strong>, cut caller abandon rate <strong>−30%</strong>; supported multimillion-dollar partner programs (Apple, GoPro, Navteq).</li>
+        <li>Built and validated <strong>statistical demand-forecasting models</strong> — exponential smoothing, regression-based hypothesis testing, <strong>Erlang C capacity modeling</strong> — across 5 global contact-center sites — <strong>$25–30M/year</strong> combined book. Took over commission-payout structuring (Xactly) for GoPro, Navteq, Eurail; earned <strong>Six Sigma Green Belt</strong>; <strong>+$100K</strong> profitability, <strong>−30%</strong> abandon rate.</li>
       </ul>
     </div>
 
-    <h2>Skills · Education · Languages</h2>
-    <p><strong>Technical:</strong> SQL &amp; Salesforce (SOQL) · Snowflake · Python · JavaScript / Google Apps Script · APIs · Data Pipelines/ETL · Dashboard &amp; Metric Design · LLM/AI + Retrieval (RAG) · App Security · Automation</p>
-    <p><strong>Education:</strong> Brigham Young University — Business Administration &nbsp;·&nbsp; <strong>Languages:</strong> English (native), Portuguese (fluent), Spanish (conversational)</p>
+    <h2>Skills · Certifications · Education · Languages</h2>
+    <p><strong>Technical:</strong> Salesforce (<strong>Service Cloud, 10 yrs</strong>; SOQL) · Snowflake · SQL · Python · Tableau · Apps Script · ETL · LLM/RAG (Anthropic/Claude API) · App Security &nbsp;·&nbsp; <strong>Certs:</strong> Six Sigma Green Belt, Workday Admin &nbsp;·&nbsp; <strong>Education:</strong> BYU — Business Administration &nbsp;·&nbsp; <strong>Languages:</strong> English, Portuguese (fluent), Spanish (conversational)</p>
   </div>
 </section>
 
@@ -169,7 +173,7 @@
 
     <h2>Impact</h2>
     <ul>
-      <li>Pod <strong>CSAT +20%</strong>, <strong>NPS +3</strong>, month-over-month productivity gains.</li>
+      <li>Pod <strong>CSAT +20%</strong>, <strong>NPS +3</strong>; specialist throughput rose from about 10&ndash;14 migrations a month to 5&ndash;8 a week (April 2025 onward), and team ESAT from the 70s to the high 80s within the first few months of the tools.</li>
       <li>Became the team's daily operating tool; collapsed an 8-step manual refresh into one self-verifying command.</li>
       <li>Gave managers trustworthy coaching data down to the individual order — built solo, end-to-end.</li>
     </ul>
@@ -185,6 +189,13 @@
 
     <h3>1 · Onboarding Performance Platform <span class="muted">(flagship)</span></h3>
     <p>Solo-built analytics + automation + AI platform that became the team's daily source of truth. <strong>Result:</strong> CSAT +20%, NPS +3; 8-step manual process → one command. <em>Leadership · data engineering · security · product.</em></p>
+    <p class="shot-note">Screenshots below are from an anonymized preview build — sample roster IDs, no real customer or employee data; Salesforce/case-email/AI-coaching actions are shown but disabled.</p>
+    <div class="shot-grid">
+      <figure class="shot"><img src="portfolio-shots/01_plan_my_day.png" alt="Plan My Day tab — capacity-aware daily prioritizer with past-due orders flagged"><figcaption>Plan My Day — daily prioritizer</figcaption></figure>
+      <figure class="shot"><img src="portfolio-shots/02_pipeline.png" alt="Pipeline tab — live order queue by facilitator with MRR and task progress"><figcaption>Pipeline — live queue management</figcaption></figure>
+      <figure class="shot"><img src="portfolio-shots/03_my_stats.png" alt="My Stats tab — individual performance metrics including DIFOT, SLA, and closed orders"><figcaption>My Stats — individual performance</figcaption></figure>
+      <figure class="shot"><img src="portfolio-shots/04_team_ranking.png" alt="Team Ranking tab — leaderboards for points, DIFOT, SLA, and CSAT across the team"><figcaption>Team Ranking — leaderboards</figcaption></figure>
+    </div>
 
     <h3>2 · AI Coaching Toolkit</h3>
     <p>AI coaching assistants and a reusable toolkit of "skills" (including an automated QC-error coach) grounded in a curated knowledge base — contextual, source-backed guidance on demand. <em>LLM/RAG · prompt design · enablement.</em></p>
@@ -200,27 +211,6 @@
 
     <h3>6 · Reliability &amp; Continuity Engineering</h3>
     <p>Added a redundant scheduled publisher for resilience and authored a continuity/bus-factor audit and runbooks so the systems weren't dependent on one person. <em>Reliability · documentation · ops maturity.</em></p>
-  </div>
-</section>
-
-<!-- ============ COVER LETTER ============ -->
-<section id="cover" hidden>
-  <div class="card">
-    <h1>What I bring</h1>
-    <p class="muted">A note on my experience and the kind of impact I look to make.</p>
-
-    <p class="lead">In 20 years leading customer-experience and operations teams — and, most recently, building the AI and automation those teams run on — I've learned that the leaders who make the biggest difference are the ones who can do both: set the vision and build the thing.</p>
-
-    <p>Leading people and owning outcomes is the through-line of my career. I've managed teams — and teams of leaders — across contact-center, client-success, and operations environments, most recently coaching an 11-person team to greater ownership of their work while lifting CSAT 20% and NPS 3 points. Earlier, as a Director of Client Experience, I owned end-to-end client relationships and drove a record <strong>89% renewal rate</strong> by making sure customers realized measurable value. I hire, coach, and develop people, and I'm comfortable in the executive room translating results into decisions leaders can act on.</p>
-
-    <p>I also lead with data — and I don't just consume it, I build the tools that produce it. Most recently I designed and built, solo, an end-to-end analytics and AI platform: automated alerting, push reports, interactive dashboards, AI coaching assistants, and a self-verifying data pipeline that replaced a fragile 8-step manual process and became my team's daily source of truth. I use AI and automation to scale a team's capacity and free people for higher-impact work — and I'm just as comfortable rolling up my sleeves on delivery as I am setting strategy.</p>
-
-    <p>What I'm best known for is walking into an ambiguous, under-defined problem and making it measurably better. I've <strong>tripled operational efficiency</strong> through automation, built cross-organizational incident-response protocols that improved response efficiency <strong>75%</strong>, and once caught a company performance metric being calculated incorrectly, traced the root cause, and drove the fix before it spread. I ramp fast on new domains and tools, and I bring the leadership, customer instinct, and data-and-AI fluency that are harder to teach than any specific product.</p>
-
-    <p>If that's the kind of leader your team is looking for, I'd love to talk.</p>
-
-    <a class="btn" href="mailto:djparkes08@gmail.com">Email me</a>
-    <a class="btn" href="Devin_Parkes_Cover_Letter.docx" download style="background:var(--accent2);margin-left:8px;">⬇ Download cover letter (Word)</a>
   </div>
 </section>
 
@@ -240,7 +230,7 @@
 
 </main>
 
-<footer>© 2026 Devin Parkes · Built by me.</footer>
+<footer>© 2026 Devin "DJ" Parkes · Built by me.</footer>
 
 <script>
   const tabs = document.querySelectorAll('nav button');
